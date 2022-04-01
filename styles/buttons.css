@@ -1,0 +1,17 @@
+.btn-yellow{
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+    border-radius: 6px;
+    margin: 32px auto;
+    width: 25%;
+	text-align: center;
+	border: 1px black;
+	background-color:#CE913A ;
+	}
+
+.btn-yellow:hover{
+	color: white ;
+	background-color: #CE913A;
+	opacity: 0.8
+}

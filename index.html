@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DécouvrirLeGinAvecGogo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="shortcut icon" href="images/pictococo.png" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/08a5edd6f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- BANNIERE -->
+<div class="banner">
+	<h1>Si comme moi vous êtes passionné(e) ou que vous souhaitez découvrir le gin sous un nouvel aspect...
+	<br><br>... rejoignez-nous aux ateliers dégustation !</h1>
+	<a href="#inscription" class="btn-yellow">S'inscrire dès maintenant !</a>
+</div>
+
+<!-- VITRINE BOUTEILLES-->
+<div class="container">
+	<h2><center>Découvrez nos meilleurs bouteilles </center></h2>
+	<div class="cards">
+		<div class="card-white">
+			<img src="images/gun.jpeg" alt="Gin Gunpowder">
+			<h3>GUNPOWDER</h3>
+			<p>45,90€</p>
+		</div>
+		<div class="card-white">
+			<img src="images/carmen.jpeg" alt="Gin Carmen">
+			<h3>CARMEN 4</h3>
+			<p>35,90€</p>
+		</div>
+		<div class="card-white">
+			<img src="images/ginmare.jpeg" alt="Gin MARE">
+			<h3>MARE</h3>
+			<p>45,90€</p>
+		</div>
+		<div class="card-white">
+			<img src="images/etsu.jpeg" alt="Gin ETSU">
+			<h3>ETSU</h3>
+			<p>37,90€</p>
+		</div>
+		<div class="card-white">
+			<img src="images/ntrois.jpeg" alt="Gin N°3">
+			<h3>N°3</h3>
+			<p>43,90€</p>
+		</div>
+		<div class="card-white">
+			<img src="images/coq.jpeg" alt="Gin COQLICORN">
+			<h3>COQLICORN</h3>
+			<p>39,90€</p>
+		</div>
+	</div>
+</div>
+
+<!-- BANNIERE MILIEU PAGE -->
+<div class="banner-fixed"></div>
+
+
+<!-- INSCRIPTION DEGUSTATION -->
+
+	<center>
+		<div class="inscrivez-vous"id="inscription">
+		  <center>
+		  	<h2>Rejoignez nos ateliers dégustation !</h2>
+		  </center>
+		  <form action="/page-traitement-donnees" method="post">
+		    <div>
+		      <label for="nom">Votre nom</label>
+		      <input type="text" id="nom" name="nom" placeholder="NOM" required>
+		    </div>
+		    <div>
+		      <label for="email">Votre e-mail</label>
+		      <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+		    </div>
+		    <div>
+		    	<label for="date">Date</label>
+				<input type="date" id="date-reservation" name="date-reservation">
+			</div>
+		    <div>
+		      <button type="submit">Je m'inscris</button>
+		    </div>
+		  </form>
+		</div>
+	</center>
+
+<!-- CARROUSEL D'IMAGES -->
+<center>
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-indicators">
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+	  </div>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="images/gincocktail.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="images/ginbarman.jpg" class="d-block w-100" alt="">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="images/gintonic.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="images/gincocktails.jpg" class="d-block w-100" alt="...">
+	    </div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+</center>
+
+
+<!-- BAS DE PAGE -->
+<div class="footer">
+	<center>
+	<div class="icons">
+		<a href="https://www.facebook.com/theginaddict"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+		<a href="https://www.instagram.com/ginismyreligionofficial/?hl=fr"target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+		<a href="tel:+ 33 6 72 06 96 87"><i class="fa-solid fa-phone"target="_blank"></i></a>
+		<a href="mailto:margaux.laurandin@gmail.com"target="_blank"><i class="fa-solid fa-at"></i></a>
+		<a href="https://goo.gl/maps/tHQX62vRTV8DQM5YA"target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+	</div>
+	</center>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>	
+</body>
+</html>

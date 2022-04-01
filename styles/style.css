@@ -1,0 +1,67 @@
+@import url("banner.css");
+@import url("buttons.css");
+@import url("cards.css");
+@import url("footer.css");
+@import url("form.css");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+html{
+	scroll-behavior: smooth;}
+
+body{
+	margin: 0;
+	font-family: 'Libre Baskerville', serif;}
+h1{
+	color: white;}
+h2{
+	color: black;
+	font-size: 24px;
+	margin: 16px;}
+h3{
+	color:  black;
+	font-size: 25px;
+	margin-top: 18px;}
+p{
+	font-size: 18px;
+	font-weight: 500;}
+
+a{
+	text-decoration: none;}
+
+
+.container{
+	margin: 0 auto;
+	width: 80%;}
+
+.icons i{
+	font-size: 40px;
+	color: #e7c46a;
+}
+
+.icons{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+@media (min-width: 576px) { 
+	.icons{grid-template-columns: 1fr 1fr;}
+}
+
+@media (min-width: 768px) {
+	.icons{grid-template-columns: 1fr 1fr 1fr;}
+}
+
+@media (min-width: 992px) {
+	.icons{grid-template-columns: 1fr 1fr 1fr 1fr;}
+}
+
+@media (min-width: 1200px) { 
+	.icons{grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+}
+
+#carouselExampleIndicators{
+	width: 60vw;
+	align-items: center;
+}
+
